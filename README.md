@@ -1,6 +1,6 @@
 # Tic Tac Toe Django Channels Project
 
-# Live URL : [URL](https://tictactoe-i42w.onrender.com/)
+# Live URL : [URL](https://tictactoe-i2qb.onrender.com/)
 
 ## About the Author
 
