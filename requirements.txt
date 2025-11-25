@@ -1,0 +1,38 @@
+# Django & Channels
+Django==4.2
+channels==3.0.5
+asgiref==3.6.0
+daphne==3.0.2
+
+# Only needed for Channels
+autobahn==23.1.2
+txaio==23.1.1
+
+# Cryptography dependencies
+cffi==1.17.1
+pycparser==2.21
+cryptography==40.0.2
+
+# Optional but safe
+sqlparse==0.4.3
+typing_extensions==4.12.2
+tzdata==2023.3
+
+# Twisted stack (compatible versions)
+Twisted==22.10.0
+constantly==15.1.0
+incremental==24.7.2
+zope.interface==6.0
+hyperlink==21.0.0
+attrs==22.2.0
+service-identity==21.1.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+
+# Redis (only if needed — but you are NOT using it)
+# redis==4.5.4
+# channels-redis==4.1.0
+
+# Tools
+setuptools==73.0.0
+six==1.16.0
