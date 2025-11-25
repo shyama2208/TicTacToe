@@ -1,1 +1,1 @@
-web: daphne -b 0.0.0.0 -p 8000 tic_tac_toe.asgi:application
+web: gunicorn tic_tac_toe.wsgi --log-file -
